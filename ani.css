@@ -1,0 +1,134 @@
+.image-one {
+    animation-name: rotateimage;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    
+}
+
+@keyframes rotateimage {
+    10% {
+        border-radius: 10px;
+        transform: translateX(40px)  rotate(60deg);
+       
+        transition: all
+
+    }
+
+    30% {
+        border-radius: 30px;
+        transform: translateX(120px)  rotate(120deg);
+
+
+        
+        transition: all;
+
+    }
+
+    60% {
+        border-radius: 70px;
+        transform: translateX(200px)  rotate(240deg);
+      
+        transition: all;
+    }
+
+    100% {
+        border-radius: 0px;
+        transform: translateX(40px)  rotate(360deg);
+       
+        transition: all;
+    }
+}
+.image-two {
+    animation-name: rotatetwo;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    
+}
+
+@keyframes rotatetwo{
+    10% {
+        border-radius: 10px;
+        transform: rotate(60deg);
+        top: 0px;
+        right: 40px;
+        transition: all
+
+    }
+
+    30% {
+        border-radius: 30px;
+        transform: translateZ(120px)  rotate(120deg);
+
+        top: 0px;
+        right: 180px;
+        
+        transition: all;
+
+    }
+
+    60% {
+        border-radius: 70px;
+        transform: translateZ(200px)  rotate(240deg);
+        top: 0px;
+        right: 150px;
+        transition: all;
+    }
+
+    100% {
+        border-radius: 0px;
+        transform: translateZ(40px)  rotate(360deg);
+        top: 0px;
+        right: 40px;
+        transition: all;
+    }
+}
+.image-three {
+    animation-name: rotatethree;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    
+}
+
+@keyframes rotatethree{
+    10% {
+        border-radius: 10px;
+        transform: translateY(40px)  rotate(60deg);
+       
+        transition: all
+
+    }
+
+    30% {
+        border-radius: 30px;
+        transform: translateY(120px)  rotate(120deg);
+
+
+        
+        transition: all;
+
+    }
+
+    60% {
+        border-radius: 70px;
+        transform: translateY(200px)  rotate(240deg);
+      
+        transition: all;
+    }
+
+    100% {
+        border-radius: 0px;
+        transform: translateY(40px)  rotate(360deg);
+       
+        transition: all;
+    }
+}
